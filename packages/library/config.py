@@ -47,7 +47,7 @@ CONFIG = [
         'name': 'head_gear',
         'directory': 'Head Gear',
         'required': False,
-        'rarity_weights': None,
+        'rarity_weights': 'random',
     },
     {
         'id': 5,
@@ -75,6 +75,6 @@ CONFIG = [
         'name': 'wristband',
         'directory': 'Wristband',
         'required': False,
-        'rarity_weights': None,
+        'rarity_weights': [100, 5, 5, 5, 15, 5, 1],
     },
 ]
