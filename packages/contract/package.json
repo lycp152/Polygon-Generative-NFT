@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "run:script": "npx hardhat run scripts/run.js",
-    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.js --network mumbai",
     "test": "npx hardhat test"
   },
   "devDependencies": {
@@ -17,7 +18,7 @@
     "@typechain/hardhat": "^6.1.5",
     "chai": "^4.3.7",
     "ethers": "5.7.0",
-    "hardhat": "^2.13.0",
+    "hardhat": "^2.19.4",
     "hardhat-gas-reporter": "^1.0.9",
     "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.1"

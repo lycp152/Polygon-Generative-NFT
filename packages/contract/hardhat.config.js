@@ -2,14 +2,13 @@ require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
 
-const { API_URL, PRIVATE_KEY, ETHERSCAN_API } = process.env;
+const { API_URL, PRIVATE_KEY, ETHERSCAN_API, POLYGON_URL } = process.env;
 
 module.exports = {
   solidity: "0.8.18",
-  defaultNetwork: "sepolia",
   networks: {
-    sepolia: {
-      url: API_URL,
+    mumbai: {
+      url: POLYGON_URL,
       accounts: [PRIVATE_KEY],
     },
   },
