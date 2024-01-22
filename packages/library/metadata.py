@@ -14,7 +14,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 # Base metadata. MUST BE EDITED.
-BASE_IMAGE_URL = "Qmem7FgoBFf72CZNi7Ktyn2qPqoS4kvhXo2mNghdr8gTJo"
+BASE_IMAGE_URL = "ipfs://Qmem7FgoBFf72CZNi7Ktyn2qPqoS4kvhXo2mNghdr8gTJo"
 BASE_NAME = "First Collection #"
 
 BASE_JSON = {

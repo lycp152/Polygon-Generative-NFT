@@ -1,7 +1,7 @@
 async function main() {
   // あなたのコレクションの Base Token URI（JSON の CID）に差し替えてください
   // 注: 十分な NFT を確保するために、下記のサンプル Token URI を使用しても問題ありません。
-  const baseTokenURI = "ipfs://QmdqhEWp7jsQjLi3jA4t6LHC8uGFd93gJMctUyjxuhvAnD/";
+  const baseTokenURI = "ipfs://QmVv6sFmKiGCEgCKuPucAgFEVsitC3GEnLbwFNnMkRYT3w/";
 
   // オーナー/デプロイヤーのウォレットアドレスを取得する
   const [owner] = await hre.ethers.getSigners();
